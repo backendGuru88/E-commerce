@@ -8,6 +8,10 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.header .container {
+    max-width: 100% !important; /* Overrides Bootstrap */
+    padding: 0 !important;
+}
 
 .navbar{
     display: flex;
@@ -53,7 +57,10 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
-
+.text h1{
+    align-items: center;
+    text-align: center;
+}
 .row{
     display: flex;
     align-items: center;
